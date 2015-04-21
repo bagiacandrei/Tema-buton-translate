@@ -22,11 +22,11 @@ namespace Tema_buton_traducere
         {
             int anInteger;
             anInteger = int.Parse(textBox1.Text);
-            if (checkBox1.Checked)
+            if (checkBox_French.Checked)
                 MessageBox.Show(anInteger.ToWords(new CultureInfo("fr")));
-            if (checkBox2.Checked)
+            if (checkBox_Russian.Checked)
                 MessageBox.Show(anInteger.ToWords(new CultureInfo("ru")));
-            if (checkBox3.Checked)
+            if (checkBox_German.Checked)
                 MessageBox.Show(anInteger.ToWords(new CultureInfo("de")));
                 
         }
